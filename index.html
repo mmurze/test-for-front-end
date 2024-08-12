@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>Dolmatov-S</title>
+</head>
+<body>
+	<div class="flex items-center justify-center h-screen">
+		<div class="relative w-[315px] md:w-[380px] lg:w-[440px] h-[380px] bg-gray-300 ">
+			<button class="absolute right-0 bg-white py-1.5 px-2.5 m-3 rounded-md">
+				button
+			</button>
+			<div class="group">
+				<div class="absolute bottom-0 z-20 py-3 px-4 w-full bg-white transition-all duration-300 transform translate-y-0 group-hover:translate-y-[-135px]">
+					<div class="relative">
+						<div class="flex items-center justify-between">
+							<div>
+								<p class="text-gray-500 text-sm">
+									Subheader
+								</p>
+								<h3 class="text-gray-800 font-medium text-xl">
+									Header
+								</h3>
+							</div>
+							<p class="font-medium text-xl">
+								Text
+							</p>
+						</div>
+						<div class="absolute flex flex-col w-full gap-2 pt-2 mt-2 border-t-[1px] border-gray-200 opacity-0 group-hover:opacity-100 duration-0 group-hover:duration-500 transition-all">
+							<div class="flex items-center justify-between">
+								<p class="text-gray-500">Text</p>
+								<p>Link</p>
+							</div>
+							<div class="flex items-center justify-between">
+								<p class="text-gray-500">Text</p>
+								<p>Link</p>
+							</div>
+							<div class="flex items-center justify-between">
+								<p class="text-gray-500">Text</p>
+								<p>Link</p>
+							</div>
+							<div class="flex items-center justify-between">
+								<p class="text-gray-500">Text</p>
+								<p>Link</p>
+							</div>
+						</div>
+						<div class="w-full transform translate-y-0 group-hover:translate-y-[135px] transition-transform delay-100 ">
+							<button class="bg-gray-500 w-full py-3.5 rounded-md mt-3 text-white font-medium">
+								Button
+							</button>
+							<p class="flex justify-center text-gray-500 text-xs mt-1">
+								Sub text
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="absolute bottom-0 h-[155px] w-full bg-white z-10"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
